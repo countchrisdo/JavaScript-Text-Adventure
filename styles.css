@@ -31,8 +31,8 @@ body {
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  border: 1px solid hsl(200, 100%, 30%);
+  background-color: grey;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
@@ -40,5 +40,5 @@ body {
 }
 
 .btn:hover {
-  border-color: black;
+  border-color: whitesmoke;
 }

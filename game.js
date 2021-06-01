@@ -42,15 +42,18 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You wake up in a strange place and you see a jar of blue goo near you.',
+    //was You see a jar of blue goo on the ground
+    text: `You're walking in the woods. You're all alone and your phone is dead. Out of the corner of your eye you spot him /SHIA LABEOUF/`,
     options: [
       {
-        text: 'Take the goo',
+        //was take the goo
+        text: 'Continue Walking along',
         setState: { blueGoo: true },
         nextText: 2
       },
       {
-        text: 'Leave the goo',
+        //was leave the goo
+        text: 'Confront Hollywood Superstar SHIA LABEOF',
         nextText: 2
       }
     ]
